@@ -4,6 +4,12 @@ version = "0.1.0"
 authors = ["Samuel Collins <samuel.collins@live.co.uk>"]
 edition = "2018"
 
+description = "A handy rust macro to exclude debugging code from your release builds."
+license = "MIT"
+repository = "https://github.com/Humandoodlebug/if_debug"
+keywords = ["if", "debug", "macro", "if_debug"]
+categories = ["rust-patterns"]
+
 [lib]
 proc-macro = true
 
